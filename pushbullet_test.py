@@ -1,3 +1,6 @@
+# Developed by Vishal Keshav
+# Net Puppy version 0.01
+
 import os
 import subprocess
 import time
@@ -18,6 +21,12 @@ def get_notification(data, token):
     r.raise_for_status()
     return r.json()
 
+def run_command(command_str):
+    if command_str[0] == 'C':
+        os.system(command_str[2:])
+    else:
+        print("invalid command, " + command_str)
+
 
 def realtime(token):
     url = "wss://stream.pushbullet.com/websocket/" + token
@@ -31,7 +40,7 @@ def realtime(token):
         if data["type"] != "nop":
             if data["type"] == "tickle":
                 notification = get_notification(data, token)
-                print(notification['pushes'][0]['body'])
+                run_command(notification['pushes'][0]['body'])
 
 #-------------------------------------TEST--------------------------------------
 def main():
