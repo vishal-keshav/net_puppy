@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="net-puppy",
-    version="0.0.1",
+    version="0.0.2",
     author="Vishal Keshav",
     author_email="vishal.keshav.1993@gmail.com",
     description="A network controlled terminal interface",
