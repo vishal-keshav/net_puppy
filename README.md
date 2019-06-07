@@ -61,8 +61,15 @@ Start the core module with start function, by providing your 34 character push b
 
 ### Step 5:
 
-From androd app (n the ME tab), type "C <command>"
+From androd app (in the ME tab), type "C command"
+
 For example: "C ls" for ls on the terminal.
 
-## Upcoming
-In the next, full blown terminal info will be avalable in your push bullet app.
+## Upcoming features
+In the next, full blown terminal info will be avalable on your push bullet app.
+
+## Raise bugs and feature requests:
+https://github.com/vishal-keshav/net_puppy
+
+### Developer's info
+Vishal Keshav (vishal.keshav.1993@gmail.com)
