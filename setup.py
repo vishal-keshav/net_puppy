@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/vishal-keshav/net_puppy",
     packages=setuptools.find_packages(),
-    install_requires=['requests', 'websocket', 'json'],
+    #install_requires=['requests', 'websocket', 'simplejson'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: Permissive license :: MIT",
