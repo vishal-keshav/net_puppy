@@ -15,8 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     #install_requires=['requests', 'websocket', 'simplejson'],
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
         "License :: OSI Approved :: MIT License",
-        "Operating system :: Linux",
+        "Operating System :: POSIX :: Linux",
     ],
 )
