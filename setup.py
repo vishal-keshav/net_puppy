@@ -16,7 +16,7 @@ setuptools.setup(
     #install_requires=['requests', 'websocket', 'simplejson'],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: Permissive license :: MIT",
+        "License :: OSI Approved :: MIT License",
         "Operating system :: Linux",
     ],
 )
